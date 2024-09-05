@@ -1,0 +1,130 @@
+[2024-09-04T21:10:12.064+0000] {processor.py:186} INFO - Started process (PID=1308) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:12.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:10:12.068+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.068+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:12.093+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:12.185+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.185+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:bq_to_local_dag
+[2024-09-04T21:10:12.196+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.196+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:bq_to_local_dag
+[2024-09-04T21:10:12.204+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.204+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:bq_to_local_dag
+[2024-09-04T21:10:12.205+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.205+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:10:12.216+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.215+0000] {dag.py:3234} INFO - Creating ORM DAG for bq_to_local_dag
+[2024-09-04T21:10:12.224+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:12.224+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:10:12.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.191 seconds
+[2024-09-04T21:10:42.492+0000] {processor.py:186} INFO - Started process (PID=1371) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:42.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:10:42.497+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:42.496+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:42.531+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:10:42.559+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:42.558+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:10:42.589+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:10:42.587+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:10:42.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.130 seconds
+[2024-09-04T21:11:12.704+0000] {processor.py:186} INFO - Started process (PID=1434) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:12.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:11:12.707+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:12.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:12.724+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:12.741+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:12.741+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:11:12.760+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:12.760+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:11:12.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.080 seconds
+[2024-09-04T21:11:42.992+0000] {processor.py:186} INFO - Started process (PID=1497) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:42.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:11:42.996+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:42.995+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:43.012+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:11:43.028+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:43.028+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:11:43.048+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:11:43.047+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:11:43.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.084 seconds
+[2024-09-04T21:12:13.135+0000] {processor.py:186} INFO - Started process (PID=1560) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:13.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:12:13.138+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:13.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:13.153+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:13.169+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:13.169+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:12:13.187+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:13.187+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:12:13.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.077 seconds
+[2024-09-04T21:12:43.795+0000] {processor.py:186} INFO - Started process (PID=1624) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:43.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:12:43.798+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:43.798+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:43.819+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:12:43.836+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:43.836+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:12:43.856+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:12:43.856+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:12:43.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.088 seconds
+[2024-09-04T21:13:14.707+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:14.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:13:14.710+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:14.710+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:14.727+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:14.745+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:14.744+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:13:14.764+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:14.764+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:13:14.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.077 seconds
+[2024-09-04T21:13:44.922+0000] {processor.py:186} INFO - Started process (PID=1750) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:44.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:13:44.925+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:44.925+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:44.938+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:13:44.954+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:44.953+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:13:44.972+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:13:44.972+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:13:44.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.076 seconds
+[2024-09-04T21:14:15.671+0000] {processor.py:186} INFO - Started process (PID=1813) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:15.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:14:15.677+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:15.676+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:15.718+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:15.753+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:15.752+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:14:15.794+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:15.793+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-03 00:00:00+00:00, run_after=2024-09-04 00:00:00+00:00
+[2024-09-04T21:14:15.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.167 seconds
+[2024-09-04T21:14:46.283+0000] {processor.py:186} INFO - Started process (PID=1876) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:46.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:14:46.293+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:46.292+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:46.337+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:14:46.397+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:46.395+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:14:46.510+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:14:46.510+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:14:46.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.291 seconds
+[2024-09-04T21:15:16.726+0000] {processor.py:186} INFO - Started process (PID=1939) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:16.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:15:16.737+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:16.736+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:16.782+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:16.820+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:16.820+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:15:16.870+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:16.869+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:15:16.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.200 seconds
+[2024-09-04T21:15:47.354+0000] {processor.py:186} INFO - Started process (PID=2001) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:47.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:15:47.358+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:47.358+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:47.379+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:15:47.404+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:47.403+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:15:47.435+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:15:47.435+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:15:47.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.114 seconds
+[2024-09-04T21:16:17.761+0000] {processor.py:186} INFO - Started process (PID=2065) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:17.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:16:17.765+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:17.765+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:17.788+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:17.813+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:17.812+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:16:17.845+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:17.845+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:16:17.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.120 seconds
+[2024-09-04T21:16:48.271+0000] {processor.py:186} INFO - Started process (PID=2128) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:48.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:16:48.275+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:48.274+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:48.294+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:16:48.312+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:48.312+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:16:48.334+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:16:48.333+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:16:48.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.088 seconds
+[2024-09-04T21:17:18.718+0000] {processor.py:186} INFO - Started process (PID=2191) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:18.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:17:18.722+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:18.722+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:18.736+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:18.757+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:18.756+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:17:18.777+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:18.777+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:17:18.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.085 seconds
+[2024-09-04T21:17:49.111+0000] {processor.py:186} INFO - Started process (PID=2254) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:49.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:17:49.114+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:49.114+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:49.129+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:17:49.149+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:49.148+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:17:49.170+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:17:49.170+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:17:49.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.087 seconds
+[2024-09-04T21:18:19.532+0000] {processor.py:186} INFO - Started process (PID=2317) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:19.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:18:19.535+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:19.535+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:19.549+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:19.567+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:19.566+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:18:19.589+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:19.589+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:18:19.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.085 seconds
+[2024-09-04T21:18:50.002+0000] {processor.py:186} INFO - Started process (PID=2380) to work on /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:50.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcp_integration_dag.py for tasks to queue
+[2024-09-04T21:18:50.006+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:50.006+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:50.022+0000] {processor.py:925} INFO - DAG(s) 'bq_to_local_dag' retrieved from /opt/airflow/dags/gcp_integration_dag.py
+[2024-09-04T21:18:50.046+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:50.045+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-04T21:18:50.072+0000] {logging_mixin.py:190} INFO - [2024-09-04T21:18:50.072+0000] {dag.py:4138} INFO - Setting next_dagrun for bq_to_local_dag to 2024-09-04 00:00:00+00:00, run_after=2024-09-05 00:00:00+00:00
+[2024-09-04T21:18:50.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcp_integration_dag.py took 0.096 seconds
