@@ -65,19 +65,19 @@ def run_docker_compose():
     # time.sleep(10)
     # print('docker-compose build executed successfully')
 
-    # try:
-    #     # Execute the docker-compose up --build command
-    #     subprocess.run(["docker-compose", "up","airflow-init"], check=True)
+    try:
+        # Execute the docker-compose up --build command
+        subprocess.run(["docker-compose", "up","airflow-init"], check=True)
 
-    #     print("Waiting for initialization to complete...")
-    #     time.sleep(30)  # Adjust the sleep time as needed
+        print("Waiting for initialization to complete...")
+        time.sleep(30)  # Adjust the sleep time as needed
 
-    # except subprocess.CalledProcessError as e:
-    #     print(f"Failed to execute docker-compose airflow init: {e}")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to execute docker-compose airflow init: {e}")
 
     try:
         # Execute the docker-compose up --build command
-        subprocess.run(["docker-compose", "up", "--build"], check=True)
+        subprocess.run(["docker-compose", "up", '-d', '--build'], check=True)
 
         # Wait for services to be ready
         print("Waiting for services to be ready...")
@@ -110,5 +110,5 @@ def copy_files_to_container(container_name):
 if __name__ == "__main__":
     run_docker_compose()
 
-    while True:
-        pass
+    # while True:
+    #     pass

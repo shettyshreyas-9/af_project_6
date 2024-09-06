@@ -3,7 +3,9 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryExecuteQue
 from datetime import datetime
 
 default_args = {
-    'start_date': datetime(2024, 1, 1),
+    'owner': 'airflow_SS',
+    'start_date': datetime(2024, 1, 1)
+    
 }
 
 with DAG('alpha',
