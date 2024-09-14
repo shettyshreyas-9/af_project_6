@@ -97,14 +97,25 @@ def run_docker_compose():
 def copy_files_to_container(container_name):
     try:
         # Replace the following with the path to the files you want to copy
-        source_path = "/app/dags"
+        source_path_dags = "/app/dags"
+        source_path_beam_scripts = "/app/beam_scripts"
+        source_path_beam_keys = "/app/keys"
         
         # Copy files to the specified container
-        subprocess.run(["docker", "cp", source_path, f"{container_name}:/opt/airflow/"], check=True)
-        print(f"Files copied to {container_name}")
+        subprocess.run(["docker", "cp", source_path_dags, f"{container_name}:/opt/airflow/"], check=True)
+        print(f" dag Files copied to {container_name}")
+
+        subprocess.run(["docker", "cp", source_path_beam_scripts, f"{container_name}:/opt/airflow/"], check=True)
+        print(f"beam Files copied to {container_name}")
     
+        subprocess.run(["docker", "cp", source_path_beam_keys, f"{container_name}:/opt/airflow/"], check=True)
+        print(f"key Files copied to {container_name}")
+
     except subprocess.CalledProcessError as e:
         print(f"Failed to copy files to {container_name}: {e}")
+
+
+
 
 
 if __name__ == "__main__":

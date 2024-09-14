@@ -17,12 +17,15 @@ RUN apt-get update && \
 # Copy the application files into the container
 COPY . .
 
+RUN pip install -r requirements.txt
+
+
 # Expose the port that the app will run on
 EXPOSE 8080
 
 # Run the app.py script
 CMD ["python", "app.py"]
 
-USER 50000
+# USER 50000
 
-COPY . .
+# COPY . .

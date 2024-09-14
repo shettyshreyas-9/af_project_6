@@ -1,0 +1,4 @@
+apache-beam[gcp]
+# apache-airflow
+# apache-airflow-providers-apache-beam
+# apache-airflow-providers-google

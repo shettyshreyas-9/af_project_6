@@ -1,0 +1,4 @@
+gcp-test.json
+venv/
+logs/
+docker-compose-3.yaml
